@@ -6,7 +6,8 @@
     "db:migrate": "prisma migrate dev",
     "db:studio": "prisma studio",
     "build": "tsup",
-    "start": "node --env-file=.env dist/http/server.js"
+    "start": "node --env-file=.env dist/http/server.js",
+    "lint": "eslint src/*.ts --fix"
   },
   "dependencies": {
     "@fastify/cors": "^10.0.2",
